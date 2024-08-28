@@ -40,5 +40,12 @@
     },
     "dependencies": {
         "imask": "latest"
+    },
+    "exports": {
+        ".": {
+            "svelte": "./src/index.js"
+        },
+        "./src/*": "./src/*"
     }
+    
 }
